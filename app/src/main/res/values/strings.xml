@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">MyFamilySpace</string>
+    <string name="gran_turismo">Gran Turismo</string>
+    <string name="recuerda">Recuerda:</string>
+    <string name="my_family_space">My Family Space</string>
+    <string name="lo_mas_reciente">Lo más reciente</string>
+    <string name="titulo">Titulo</string>
+    <string name="fecha">11/11/2023</string>
+    <string name="hora_inicial">08:00</string>
+    <string name="hora_final">12:00</string>
+    <string name="uno">Uno</string>
 </resources>

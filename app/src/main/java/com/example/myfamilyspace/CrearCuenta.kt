@@ -10,7 +10,7 @@ import com.google.firebase.auth.auth
 
 class CrearCuenta : AppCompatActivity() {
 
-    private lateinit var binding: ActivityCrearCuentaBinding
+    private lateinit var binding: ActivityCrearCuentaBindin
     private lateinit var auth: FirebaseAuth
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

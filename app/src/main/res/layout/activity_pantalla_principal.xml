@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PantallaPrincipal">
+
+    <TextView
+        android:id="@+id/nombre_ultima_pelicula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="35dp"
+        android:text="@string/gran_turismo"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imagen_ultima_pelicula"
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/gran_turismo"
+        app:layout_constraintBottom_toTopOf="@+id/nombre_ultima_pelicula"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/texto_recuerda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/recuerda"
+        android:textSize="30sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nombre_ultima_pelicula" />
+
+    <LinearLayout
+        android:id="@+id/fondo_actividad_proxima"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="90dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/texto_recuerda">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/actividades_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/item_actividad_actividades">
+
+        </androidx.recyclerview.widget.RecyclerView>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/fondo_boton_peliculas"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:background="@drawable/borde_botones"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <ImageView
+        android:id="@+id/boton_peliculas"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/boton_peliculas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <View
+        android:id="@+id/fondo_boton_perfil"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:background="@drawable/borde_botones"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <ImageView
+        android:id="@+id/boton_perfil"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/boton_perfil"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <View
+        android:id="@+id/fondo_boton_actividades"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:background="@drawable/borde_botones"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/fondo_boton_peliculas" />
+
+    <ImageView
+        android:id="@+id/boton_actividades"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/boton_actividades"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/fondo_boton_peliculas" />
+
+    <View
+        android:id="@+id/fondo_boton_juegos"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:background="@drawable/borde_botones"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/fondo_boton_perfil" />
+
+    <ImageView
+        android:id="@+id/boton_juegos"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/boton_juegos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/fondo_boton_perfil" />
+
+    <TextView
+        android:id="@+id/nombre_ultimo_juego"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="@string/uno"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/texto_recuerda"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/nombre_ultima_pelicula" />
+
+    <ImageView
+        android:id="@+id/imagen_ultimo_juego"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/uno"
+        app:layout_constraintBottom_toTopOf="@+id/nombre_ultimo_juego"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/imagen_ultima_pelicula" />
+
+    <TextView
+        android:id="@+id/text_lo_mas_reciente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/lo_mas_reciente"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/imagen_ultima_pelicula"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/nombre_aplicacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:text="@string/my_family_space"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toTopOf="@+id/text_lo_mas_reciente"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/logo_aplicacion"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/logo_aplicacion"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/text_lo_mas_reciente"
+        app:layout_constraintLeft_toRightOf="@+id/nombre_aplicacion"
+        android:layout_marginStart="15dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
