@@ -18,7 +18,8 @@ class CrearCuenta : AppCompatActivity() {
         setContentView(binding.root)
         auth = Firebase.auth
         binding.botonCrearCuentaRegistrarse.setOnClickListener {
-            clickCrearCuenta(binding.correoElectronicoCrearCuenta.text.toString(),binding.contrasenaCrearCuenta.text.toString())
+            clickCrearCuenta(binding.editTextCorreoElectronicoCrearCuenta.text.toString(),
+                binding.editTextContrasenaCrearCuenta.text.toString())
         }
     }
 

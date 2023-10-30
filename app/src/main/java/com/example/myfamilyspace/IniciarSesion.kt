@@ -19,8 +19,8 @@ class IniciarSesion : AppCompatActivity() {
         auth = Firebase.auth
         binding.botonIniciarSesion.setOnClickListener {
             iniciarSesion(
-                binding.correoElectronicoIniciarSesion.text.toString(),
-                binding.contrasenaIniciarSesion.text.toString()
+                binding.editTextCorreoElectronicoIniciarSesion.text.toString(),
+                binding.editTextContrasena.text.toString()
             )
         }
         binding.botonCrearCuenta.setOnClickListener {
