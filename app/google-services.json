@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "944242166553",
+    "project_id": "myfamilyspace-a414f",
+    "storage_bucket": "myfamilyspace-a414f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944242166553:android:493c6b97495506d7c5d388",
+        "android_client_info": {
+          "package_name": "com.example.myfamilyspace"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAu976G-hB41G0La_zxSUWGQlHkGEbIi54"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

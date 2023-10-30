@@ -17,13 +17,13 @@ class IniciarSesion : AppCompatActivity() {
         binding = ActivityIniciarSesionBinding.inflate(layoutInflater)
         setContentView(binding.root)
         auth = Firebase.auth
-        binding.iniciarSesionBoton.setOnClickListener {
+        binding.botonIniciarSesion.setOnClickListener {
             iniciarSesion(
                 binding.correoElectronicoIniciarSesion.text.toString(),
                 binding.contrasenaIniciarSesion.text.toString()
             )
         }
-        binding.crearCuentaIniciarSesion.setOnClickListener {
+        binding.botonCrearCuenta.setOnClickListener {
             val intent: Intent = Intent(this,CrearCuenta::class.java)
             startActivity(intent)
         }
