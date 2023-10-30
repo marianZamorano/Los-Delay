@@ -33,4 +33,15 @@
     <string name="confirmar_contrasena_crear_cuenta">Confirmar contraseña</string>
     <string name="edit_text_confirmar_contrasena_crear_cuenta">Escriba nuevamente su contraseña</string>
     <string name="boton_crear_cuenta_registrarse">Registrarse</string>
+    <string name="crear_actividad">Crear actividad</string>
+    <string name="selecciona_el_dia">Selecciona la fecha</string>
+    <string name="titulo_de_la_actividad">Titulo de la actividad</string>
+    <string name="edit_text_titulo_actividad">Almuerzo familiar, pasear, viajar, etc.</string>
+    <string name="detalles_actividad">Detalles</string>
+    <string name="edit_text_detalles_actividad">Da detalles sobre la actividad</string>
+    <string name="fecha_actividad">Fecha</string>
+    <string name="hora_inicial_crear_actividad">Hora inicial</string>
+    <string name="edit_text_hora_inicial_crear_actividad">Selecciona la hora</string>
+    <string name="hora_final_crear_actividad">Hora final</string>
+    <string name="edit_text_hora_final_crear_actividad">Selecciona la hora</string>
 </resources>
