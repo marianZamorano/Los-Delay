@@ -1,8 +1,8 @@
 package com.example.myfamilyspace
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.example.myfamilyspace.databinding.ActivityIniciarSesionBinding
 import com.google.firebase.Firebase
 import com.google.firebase.auth.FirebaseAuth
