@@ -17,7 +17,7 @@ class CrearCuenta : AppCompatActivity() {
         binding = ActivityCrearCuentaBinding.inflate(layoutInflater)
         setContentView(binding.root)
         auth = Firebase.auth
-        binding.crearCuentaBoton.setOnClickListener {
+        binding.botonCrearCuentaRegistrarse.setOnClickListener {
             clickCrearCuenta(binding.correoElectronicoCrearCuenta.text.toString(),binding.contrasenaCrearCuenta.text.toString())
         }
     }
