@@ -10,14 +10,14 @@ import com.google.firebase.auth.auth
 
 class CrearCuenta : AppCompatActivity() {
 
-    private lateinit var binding: ActivityCrearCuentaBindin
+    private lateinit var binding: ActivityCrearCuentaBinding
     private lateinit var auth: FirebaseAuth
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityCrearCuentaBinding.inflate(layoutInflater)
         setContentView(binding.root)
         auth = Firebase.auth
-        binding.crearCuentaBoton.setOnClickListener {
+        binding.botonCrearCuentaRegistrarse.setOnClickListener {
             clickCrearCuenta(binding.correoElectronicoCrearCuenta.text.toString(),binding.contrasenaCrearCuenta.text.toString())
         }
     }
