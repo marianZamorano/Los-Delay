@@ -16,7 +16,7 @@ class ActividadesAdapter : RecyclerView.Adapter<ActividadesAdapter.ActividadesAd
     override fun onCreateViewHolder(
         parent: ViewGroup,
         viewType: Int
-    ): ActividadesAdapter.ActividadesAdapterViewHolder {
+    ): ActividadesAdapterViewHolder {
         context = parent.context
         return ActividadesAdapterViewHolder(
             ItemActividadActividadesBinding.inflate(

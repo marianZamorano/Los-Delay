@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Wi</string>
+    <string name="app_name">MyFamilySpace</string>
     <string name="gran_turismo">Gran Turismo</string>
     <string name="recuerda">Recuerda:</string>
     <string name="uno">Uno</string>
@@ -45,4 +45,11 @@
     <string name="hora_final_crear_actividad">Hora final</string>
     <string name="edit_text_hora_final_crear_actividad">Selecciona la hora</string>
     <string name="ya_se_termino_de_editar_para_agregar_una_actividad">boton para marcar que ya se termino de editar para agregar una actividad</string>
+    <string name="como_se_juega">Como se juega</string>
+    <string name="descripcion">Descripcion</string>
+    <string name="monopoly">Monopoly</string>
+    <string name="juegos">Juegos</string>
+    <string name="Uno">Uno</string>
+    <string name="loba">Loba</string>
+    <string name="rummikub">RummiKub</string>
 </resources>
