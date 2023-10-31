@@ -37,11 +37,12 @@
     <string name="selecciona_el_dia">Selecciona la fecha</string>
     <string name="titulo_de_la_actividad">Titulo de la actividad</string>
     <string name="edit_text_titulo_actividad">Almuerzo familiar, pasear, viajar, etc.</string>
-    <string name="detalles_actividad">Detalles</string>
+    <string name="detalles_crear_actividad">Detalles</string>
     <string name="edit_text_detalles_actividad">Da detalles sobre la actividad</string>
-    <string name="fecha_actividad">Fecha</string>
+    <string name="fecha_crear_actividad">Fecha</string>
     <string name="hora_inicial_crear_actividad">Hora inicial</string>
     <string name="edit_text_hora_inicial_crear_actividad">Selecciona la hora</string>
     <string name="hora_final_crear_actividad">Hora final</string>
     <string name="edit_text_hora_final_crear_actividad">Selecciona la hora</string>
+    <string name="ya_se_termino_de_editar_para_agregar_una_actividad">boton para marcar que ya se termino de editar para agregar una actividad</string>
 </resources>

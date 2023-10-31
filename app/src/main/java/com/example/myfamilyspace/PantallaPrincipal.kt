@@ -10,16 +10,11 @@ class PantallaPrincipal : AppCompatActivity() {
     private lateinit var binding: ActivityPantallaPrincipalBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(binding.root)
         binding = ActivityPantallaPrincipalBinding.inflate(layoutInflater)
         setContentView(binding.root)
         binding.botonActividades.setOnClickListener {
-            clickSeccionActividades()
+            val intent = Intent(this, PantallaPrincipalActividades::class.java)
+            startActivity(intent)
         }
-    }
-
-    fun clickSeccionActividades() {
-        val intent = Intent(this, PantallaPrincipalActividades::class.java)
-        startActivity(intent)
     }
 }
