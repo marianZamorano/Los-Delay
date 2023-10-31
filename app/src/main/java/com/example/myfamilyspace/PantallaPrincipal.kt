@@ -16,5 +16,9 @@ class PantallaPrincipal : AppCompatActivity() {
             val intent = Intent(this, PantallaPrincipalActividades::class.java)
             startActivity(intent)
         }
+        binding.botonPeliculas.setOnClickListener {
+            val intent = Intent(this, PantallaPrincipalPeliculas::class.java)
+            startActivity(intent)
+        }
     }
 }
