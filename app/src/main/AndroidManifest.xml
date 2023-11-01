@@ -13,6 +13,9 @@
         android:theme="@style/Theme.MyFamilySpace"
         tools:targetApi="31">
         <activity
+            android:name=".PantallaComoSeJuega"
+            android:exported="false" />
+        <activity
             android:name=".PantallaPrincipalJuegos"
             android:exported="false" />
         <activity
