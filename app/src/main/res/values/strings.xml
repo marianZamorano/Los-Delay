@@ -52,4 +52,8 @@
     <string name="Uno">Uno</string>
     <string name="loba">Loba</string>
     <string name="rummikub">RummiKub</string>
+    <string name="capitan_america">Capitan America</string>
+    <string name="blue_beetle">Blue Beetle</string>
+    <string name="sinopsis">Sinopsis</string>
+    <string name="accion">Accion</string>
 </resources>

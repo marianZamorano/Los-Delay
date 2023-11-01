@@ -13,6 +13,9 @@
         android:theme="@style/Theme.MyFamilySpace"
         tools:targetApi="31">
         <activity
+            android:name=".CategoriaAccion"
+            android:exported="false" />
+        <activity
             android:name=".PantallaVotacionesJuegos"
             android:exported="false" />
         <activity
@@ -20,6 +23,9 @@
             android:exported="false" />
         <activity
             android:name=".PantallaComoSeJuega"
+            android:exported="false" />
+        <activity
+            android:name=".PerfilDeUsuario"
             android:exported="false" />
         <activity
             android:name=".PantallaPrincipalJuegos"
