@@ -18,7 +18,7 @@ class PantallaVotacionesPeliculas : AppCompatActivity() {
         binding = ActivityPantallaVotacionesPeliculasBinding.inflate(layoutInflater)
         setContentView(binding.root)
         binding.botonIrPantallaPrincipalVotacionPeliculas.setOnClickListener {
-            val intent = Intent(this, PantallaPrincipal::class.java)
+            val intent = Intent(this, PantallaVotacionesPeliculas::class.java)
             startActivity(intent)
         }
         binding.botonVolverAtrasVotacionPeliculas.setOnClickListener {
