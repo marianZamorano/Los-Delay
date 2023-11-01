@@ -13,6 +13,9 @@
         android:theme="@style/Theme.MyFamilySpace"
         tools:targetApi="31">
         <activity
+            android:name=".PantallaVotacionesJuegos"
+            android:exported="false" />
+        <activity
             android:name=".PantallaVotacionesPeliculas"
             android:exported="false" />
         <activity
