@@ -13,4 +13,10 @@ data class DataClaseJuegos(
         val nombreJuego: String,
         val textoComoSeJuega: String
     )
+
+    data class SubDataClaseVotacionJuegos(
+        val nombreJuego: String,
+        val cantidadVotacionesLikesJuego: Int,
+        val cantidadVotacionesDislikesJuego: Int
+    )
 }
