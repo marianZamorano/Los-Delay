@@ -21,7 +21,7 @@ class PantallaVotacionesJuegos : AppCompatActivity() {
         binding = ActivityPantallaVotacionesJuegosBinding.inflate(layoutInflater)
         setContentView(binding.root)
         binding.botonIrPantallaPrincipalVotacionJuegos.setOnClickListener {
-            val intent = Intent(this, PantallaPrincipal::class.java)
+            val intent = Intent(this, PantallaVotacionesJuegos::class.java)
             startActivity(intent)
         }
         binding.botonVolverAtrasVotacionJuegos.setOnClickListener {
